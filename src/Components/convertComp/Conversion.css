@@ -1,0 +1,6 @@
+.conversion{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}

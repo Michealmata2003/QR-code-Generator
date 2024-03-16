@@ -1,0 +1,132 @@
+.getmore {
+  width: 100%;
+  background-color: #e8eef2;
+}
+.getmore .title {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.getmore .title h2 {
+    color: #888888;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.getmore .title p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: #5f676d;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.getmore .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 20px 0px;
+  margin: 10px 0px;
+  gap: 10px;
+}
+.content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content div h6 {
+  color: #000000;
+  font-size: 16px;
+  padding: 10px;
+}
+.content div p {
+  color: #5f676d;
+  font-size: 14px;
+}
+.content div div {
+  background: #1abc9c;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  /* margin: 0.25rem 0 1rem 0; */
+  /* height: 50px; */
+  padding: 25px;
+}
+.content div div svg {
+  font-size: 28px;
+}
+.getmore .Container .btn{
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding: 15px 0px;
+    align-items: center;
+    display: flex;
+}
+.getmore .Container .btn button{
+    padding: 15px;
+    background: #03a9f4;
+    border-color: transparent;
+    color: #ffffff;
+    box-shadow: 0 0 1rem rgba(0,0,0,.15);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* for get plenty */
+.getplenty{
+    background-color: #ffffff;
+    margin: auto;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.getplenty .title{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+.getplenty .title h2{
+    font-size: 20px;
+    color: #5f676d;
+}
+.getplenty .title p{
+    font-size: 30px;
+    padding: 5px 0px;
+}
+
+.getplenty .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px 0px;
+}
+.getplenty .content div span{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 5px;
+}
+.getplenty .content div span .number{
+    padding: 12px;
+    background-color: #8BC34A;
+}
+.getplenty .content div p{
+    padding: 5px;
+    /* justify-content: center; */
+    text-align: start;
+    color: #5f676d;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 90%;
+
+}

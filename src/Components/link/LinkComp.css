@@ -1,0 +1,121 @@
+.link {
+  width: 100%;
+  background-color: #e8eef2;
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 5px;
+}
+.leftside {
+  width: 60%;
+}
+.rightside {
+  width: 40%;
+  justify-content: right;
+  background-color: #ffffff;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding-right: 5px;
+  color: #71787e;
+  cursor: pointer;
+}
+.head div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head div svg {
+  padding: 10px;
+  background-color: #f2f8fc;
+}
+.qrcode {
+  width: 100%;
+}
+.qrcode img {
+  width: 100%;
+}
+.rightside input {
+  width: 100%;
+  justify-content: right;
+}
+.firstclick {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.firstclick :nth-child(1) {
+  background-color: #8bc34a;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2px;
+  font-size: 16px;
+}
+.firstclick :nth-child(2) {
+  background-color: #80d4f9;
+  color: #ffffff;
+  border: none;
+  cursor: not-allowed;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2px;
+  font-size: 16px;
+}
+.secondclick {
+    display: flex;
+  gap: 10px;
+}
+.secondclick button {
+  border-color: 1px solid #03a9f4;
+  color: #03a9f4;
+  cursor: not-allowed;
+  padding: 0.5rem 0.75rem;
+  border-radius: 2px;
+}
+/* Accordion.css */
+.accordion {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.accordion.open {
+  height: auto;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.accordion-title {
+  font-size: 18px;
+  flex: 1;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon.open {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 0 15px;
+}
+
+.accordion-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
